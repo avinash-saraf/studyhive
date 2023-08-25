@@ -134,7 +134,7 @@ STATIC_URL = "static/"
 
 STATICFILES_DIRS = [BASE_DIR / "static"]
 
-STATIC_ROOT = BASE_DIR / "static/"
+STATIC_ROOT = BASE_DIR / "static_root/"
 
 USE_S3 = os.getenv("USE_S3") == "TRUE"
 if USE_S3:
